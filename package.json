@@ -27,10 +27,19 @@
   },
   "private": true,
   "dependencies": {
+    "antd": "^4.14.1",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "document-register-element": "1.13.1",
+    "lodash": "^4.17.21",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-notifications": "^1.7.2",
+    "react-redux": "^7.2.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
