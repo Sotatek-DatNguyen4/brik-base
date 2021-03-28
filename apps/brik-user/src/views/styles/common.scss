@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import 'varibales.scss';
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: $primary_text_color;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
