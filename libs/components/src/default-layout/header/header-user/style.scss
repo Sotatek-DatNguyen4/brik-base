@@ -1,0 +1,18 @@
+.header-user {
+  position: relative;
+  &__username {
+    cursor: pointer;
+    padding: 5px;
+  }
+  &__menu {
+    top: 100%;
+    left: 0;
+    z-index: 9;
+    position: absolute;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+  }
+  &__menu-item {
+    padding: 7px 15px;
+  }
+}

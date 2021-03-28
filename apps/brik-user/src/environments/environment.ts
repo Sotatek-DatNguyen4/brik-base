@@ -3,4 +3,5 @@
 
 export const environment = {
   production: false,
+  apiUrl: 'https://brik-api.sotatek.works',
 };

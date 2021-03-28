@@ -1,34 +1,29 @@
 {
   "implicitDependencies": {
     "workspace.json": "*",
-    "package.json": {
-      "dependencies": "*",
-      "devDependencies": "*"
-    },
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
     "tsconfig.base.json": "*",
     "tslint.json": "*",
     ".eslintrc.json": "*",
     "nx.json": "*"
   },
-  "affected": {
-    "defaultBase": "master"
-  },
+  "affected": { "defaultBase": "master" },
   "npmScope": "brik-base",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
-      "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
-      }
+      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
     }
   },
   "projects": {
-    "brik-user": {
-      "tags": []
-    },
-    "brik-user-e2e": {
-      "tags": [],
-      "implicitDependencies": ["brik-user"]
-    }
+    "brik-user": { "tags": [] },
+    "brik-user-e2e": { "tags": [], "implicitDependencies": ["brik-user"] },
+    "hocs": { "tags": [] },
+    "hooks": { "tags": [] },
+    "interfaces": { "tags": [] },
+    "services": { "tags": [] },
+    "store": { "tags": [] },
+    "utils": { "tags": [] },
+    "components": { "tags": [] }
   }
 }
